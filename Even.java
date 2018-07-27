@@ -13,10 +13,13 @@ class Even
 		int a=sc.nextInt();
 		if(a%2==0){
 			System.out.println("Even");
-		}else
+		}else if(a%2!=0)
 		{
 			System.out.println("Odd");
+		}else
+		{
+			System.out.println("invalid");
 		}
-		}
-}	
+}
+}
 		

@@ -11,12 +11,11 @@ class Even
 	{
 		Scanner sc=new Scanner(System.in);
 		int a=sc.nextInt();
-		System.out.println("Enter number");
 		if(a%2==0){
-			System.out.println("a is even");
+			System.out.println("Even");
 		}else
 		{
-			System.out.println("a is odd");
+			System.out.println("Odd");
 		}
 		}
 }	

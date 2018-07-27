@@ -9,7 +9,7 @@ class Leap
 	{
 	Scanner sc=new Scanner(System.in);
 		int num=sc.nextInt();
-		if(num % 400 == 0)
+		if(num % 4 == 0)
 		       {
 		System.out.println("yes");
 		       }
